@@ -8,4 +8,3 @@
 * https://uoftcoders.github.io/studyGroup/lessons/git/intro/lesson/
 * https://uoftcoders.github.io/studyGroup/lessons/git/collaboration/lesson/
 
-test string right here
