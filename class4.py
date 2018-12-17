@@ -12,3 +12,10 @@
 # and then displays the values and the type of triangle they represent.
 # If the user enters values that do not make a valid triangle, or if any values are not greater than zero,
 # then the program will invalidate that triangle by saying: “This isn’t a real triangle!”  
+
+################################################################
+#4.6
+
+# Write a Java program to solve quadratic equations (use if, else if and else).
+# If there are no real solutions, just say "No Real Solutions!"
+# And remember, to determine if the solutions are real, just make sure the discriminate (b^2 - 4*a*c) is greater than or equal to zero. 

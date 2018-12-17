@@ -18,3 +18,28 @@ elif (s1==s2 and s2!=s3) or (s1!=s2 and s2==s3):
     print("This is a isoceles triangle!")
 else:
     print("This is a scalene triangle")
+
+#######################################################################
+#4.6
+
+import math
+
+print("Enter a:")
+a = float(input())
+print("Enter b:")
+b = float(input())
+print("Enter c:")
+c = float(input())
+
+result = math.pow(b, 2) - 4 * a * c
+
+if result > 0:
+    r1 = (-b + math.sqrt(result)) / (2 * a)
+    r2 = (-b - math.sqrt(result)) / (2 * a)
+    print("The roots are ", r1 , " and " , r2)
+elif result == 0:
+    r1 = -b / (2 * a)
+    print ("The root is ", r1)
+else:
+    print("The equation has no real roots.")
+
