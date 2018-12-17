@@ -42,15 +42,33 @@
 <br /><br />
 ## Steps to add suggestions to Ben (for Visual Code):
 1. Make your changes and save. Then go click on the <img src="images/Trident.PNG" width="50" height="50" />  thing right underneath the magnifiying glass on the left. All your changes should show up like so:
-<img src="images/changes.PNG" width="200" height="400" />
-2. Commit your changes by pressing the check mark. Say yes to the dialog button that pops up<br />
-<img src="images/check.PNG" width="200" height="400" />
-3. Go to the bottom left with the arrows and stuff. Click on that to push changes to your repository
-4. Go to the original repository (https://github.com/njcssa/njcssa-python-practice-probs)
-5. Click (new pull request) & then click compare across forks
-6. Make the head fork your fork (*yourusername*/njcssa-python-practice-problems)
-7. Press "Pull new request"
 
+    <img src="images/changes.PNG" width="200" height="400" />
+
+2. Commit your changes by pressing the check mark. Say yes to the dialog button that pops up.<br />
+
+    <img src="images/check.PNG" width="200" height="400" />
+
+3. Go to the bottom left with the arrows and stuff. Click on that to push changes to your repository (And make sure you've add a message to the commit): Say yes to the dialog.
+
+    <img src="images/arrows.PNG" width="150" height="100" />
+
+4. Once you've got that done, go to the original repository (https://github.com/njcssa/njcssa-python-practice-probs) and then click "New pull request."
+
+    <img src="images/new.png" width="225" height="110">
+
+5. Click (new pull request) & then click compare across forks:
+
+    <img src="images/compare.png" width="605" height="110">
+
+6. Make the "Head Fork" your fork (*yourusername*/njcssa-python-practice-problems). So mine would be cgu2022/njcssa-python-practice-problems as my user name is cgu2022:
+
+    <img src="images/user.png" width="425" height="50">
+
+7. Press "Pull new request".
+
+<br />
+Congratulations you have now successfully suggested a change to Ben! He will review it, and if he ❤❤ it he will add it, and if he doesn't, he will add comments to it for you to change it and redo it.
 
 
 <!-- ![idk](images/Trident.PNG) -->
