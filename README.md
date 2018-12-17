@@ -16,10 +16,13 @@
 -By Chris Gu
 
 ## Starting out:
-1. Download git from here: https://git-scm.com/downloads. Also, make sure you have a python supported IDE. We <b>strongly</b> recommend you get Visual Studio Code, as you can have extensions, a great GUI, and easy to push, pull, and commit changes.
+1. Download git & install from here: https://git-scm.com/downloads. Also, make sure you have a python supported IDE. We <b>strongly</b> recommend you get Visual Studio Code, as you can have extensions, a great GUI, and easy to push, pull, and commit changes.
 <br /><br />
- 2. Now, you will need to fork the IDE. Basically this means you will make you're own copy of the master (the final draft). To do this, go here: https://github.com/njcssa/njcssa-python-practice-probs and click the fork button on the top right 
- <img src="https://github.com/cgu2022/njcssa-python-practice-probs/blob/master/Images/fork.PNG?raw=true" width="200" height="50" />. Fork it into your own account. Now, if you go to "Your Repositories", you should see your new copy of the final draft which is 👍👍:
+ 2. Now, you will need to fork the IDE. Basically this means you will make you're own copy of the master (the final draft). To do this, go here: https://github.com/njcssa/njcssa-python-practice-probs and click the fork button on the top right: 
+
+    <img src="https://github.com/cgu2022/njcssa-python-practice-probs/blob/master/Images/fork.PNG?raw=true" width="200" height="50" />.
+
+    Fork it into your own account. Now, if you go to "Your Repositories", you should see your new copy of the final draft which is 👍👍:
 
     <img src="https://github.com/cgu2022/njcssa-python-practice-probs/blob/master/Images/Repositories.PNG?raw=true" width="800" height="300" />
 <br />
