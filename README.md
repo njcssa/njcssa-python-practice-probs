@@ -16,7 +16,7 @@
 -By Chris Gu
 
 ## Starting out:
-1. Download git & install from here: https://git-scm.com/downloads. Also, make sure you have a python supported IDE. We <b>strongly</b> recommend you get Visual Studio Code, as you can have extensions, a great GUI, and easy to push, pull, and commit changes.
+1. Download git & from here: https://git-scm.com/downloads. Also, make sure you have a python supported IDE. We <b>strongly</b> recommend you get Visual Studio Code, as you can have extensions, a great GUI, and easy to push, pull, and commit changes.
 <br /><br />
  2. Now, you will need to fork the IDE. Basically this means you will make you're own copy of the master (the final draft). To do this, go here: https://github.com/njcssa/njcssa-python-practice-probs and click the fork button on the top right: 
 
