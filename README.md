@@ -51,11 +51,11 @@
 
     <img src="https://github.com/cgu2022/njcssa-python-practice-probs/blob/master/Images/Changes.PNG?raw=true" width="200" height="400" />
 
-2. Commit your changes by pressing the check mark. Say yes to the dialog button that pops up.<br />
+2. Commit your changes by pressing the check mark. Say yes to the dialog button that pops up (and make sure you've add a message to the commit)<br />
 
     <img src="https://github.com/cgu2022/njcssa-python-practice-probs/blob/master/Images/Check.PNG?raw=true" width="200" height="400" />
 
-3. Go to the bottom left with the arrows and stuff. Click on that to push changes to your repository (And make sure you've add a message to the commit): Say yes to the dialog.
+3. Go to the bottom left with the arrows and stuff. Click on that to push changes to your repository: Say yes to the dialog.
 
     <img src="https://github.com/cgu2022/njcssa-python-practice-probs/blob/master/Images/Arrows.PNG?raw=true" width="150" height="100" />
 
