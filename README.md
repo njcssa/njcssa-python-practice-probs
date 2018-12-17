@@ -51,7 +51,7 @@
 
 3. Go to the bottom left with the arrows and stuff. Click on that to push changes to your repository (And make sure you've add a message to the commit): Say yes to the dialog.
 
-    <img src="Images/arrows.png" width="150" height="100" />
+    <img src="https://github.com/cgu2022/njcssa-python-practice-probs/blob/master/Images/Arrows.PNG?raw=true" width="150" height="100" />
 
 4. Once you've got that done, go to the original repository (https://github.com/njcssa/njcssa-python-practice-probs) and then click "New pull request."
 
