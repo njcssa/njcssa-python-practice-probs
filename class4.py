@@ -16,6 +16,6 @@
 ################################################################
 #4.6
 
-# Write a Java program to solve quadratic equations (use if, else if and else).
+# Write a program to solve quadratic equations (use if, else if and else).
 # If there are no real solutions, just say "No Real Solutions!"
 # And remember, to determine if the solutions are real, just make sure the discriminate (b^2 - 4*a*c) is greater than or equal to zero. 
