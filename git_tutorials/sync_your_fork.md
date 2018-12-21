@@ -8,32 +8,32 @@ This guide assumes you have already forked the main repository into your own cop
 ### 1. Open up Git Bash on your PC
 Search for "git bash" in your windows search bar
 
-![img](git_tutorials/sync_fork_imgs/search_program.png)
+![](git_tutorials/sync_fork_imgs/search_program.png)
 
 Git Bash looks like this 
 
-![img](git_tutorials/sync_fork_imgs/git_bash.png)
+![](git_tutorials/sync_fork_imgs/git_bash.png)
 
 ### 2. use the CD command to cd into your cloned directory
-![img](git_tutorials/sync_fork_imgs/cd_directory.png)
+![](git_tutorials/sync_fork_imgs/cd_directory.png)
 ### 3. Add the remote repository as an upstream
 You need to get the .git link to the repository. In this case it will look like https://github.com/njcssa/njcssa-python-practice-probs.git
 
 Now enter the following command when you are in the forked directory
-![img](git_tutorials/sync_fork_imgs/addupstream.png)
+![](git_tutorials/sync_fork_imgs/addupstream.png)
 
 ### 4. Verify the new upstream repository you've specified for your fork.
-![img](git_tutorials/sync_fork_imgs/check_remote.png)
+![](git_tutorials/sync_fork_imgs/check_remote.png)
 
 ### 5. Fetch the remote repository
-![img](git_tutorials/sync_fork_imgs/fetch_upstream.png)
+![](git_tutorials/sync_fork_imgs/fetch_upstream.png)
 ### 6. Checkout master branch
-![img](git_tutorials/sync_fork_imgs/checkout_master.png)
+![](git_tutorials/sync_fork_imgs/checkout_master.png)
 ### 7. Merge the upstream branch from main repository into your master branch
 There should not be a merge conflict because people should be working on separate parts. If there is a merge conflict dm Ben C. so he can sort it out.
 
-![img](git_tutorials/sync_fork_imgs/merge_upstream.png)
+![](git_tutorials/sync_fork_imgs/merge_upstream.png)
 ### 8. push new commits to master branch of your forked version
-![img](git_tutorials/sync_fork_imgs/push_origin.png)
+![](git_tutorials/sync_fork_imgs/push_origin.png)
 
 You should now be up to date with the main repository!
