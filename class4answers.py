@@ -1,4 +1,21 @@
 ######################################################################
+#4.1
+
+print("Enter number 1:")
+n1 = input()
+print("Enter number 2:")
+n2 = input()
+print("Enter number 3:")
+n3 = input()
+
+if(n1 >= n2 and n1>=n3):
+    print(n1, "is the largest")
+elif(n2 >= n1 and n2>=n3):
+    print(n1, "is the largest")
+elif(n3 >= n2 and n3>=n1):
+    print(n1, "is the largest")
+
+######################################################################
 #4.5
 
 #gathering user input
