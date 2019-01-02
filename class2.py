@@ -32,20 +32,27 @@ d = 12
 
 #######################################################################################
 # 2.4
-
+# Make 2 variables. 1 Variable will be a string and the other will be a number. Then
+# add them together and print them out.
 
 
 #######################################################################################
 # 2.5
+# Make 1 variable. Make another variable and set it equal to the other variable. Then
+# print out the second varible to see what is stored.
 
 
 
 #######################################################################################
 # 2.6
+# Make a math equation with at least a +, -, /, * and (). Store this equation in a
+# variable and then print out what is stored in the variable.
 
 
 #######################################################################################
 # 2.7
+# Create string, int, double, and boolean variables. Then print them all out.
+
 
 
 

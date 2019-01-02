@@ -28,5 +28,33 @@ print(first_name + " " + last_name)
 
 #######################################################################################
 # 2.4
+num_var = 10
+str_var = "This number is cool: "
+print(str_var + num_var)
 
+#######################################################################################
+# 2.5
+var1 = 10
+var2 = "some var"
+var2 = var1
+print(var2)
+
+
+#######################################################################################
+# 2.6
+equation = 5*(9+2)/2-3
+print(equation)
+
+
+#######################################################################################
+# 2.7
+name = "Ben Campbell"
+cool_number = 4
+cool_fraction = 0.75
+boolean_var = True
+
+print(name)
+print(cool_number)
+print(cool_fraction)
+print(boolean_var)
 
