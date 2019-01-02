@@ -6,7 +6,7 @@ This guide assumes you have already forked the main repository into your own cop
 
 When you get behind or ahead of the main njcssa repository, github will tell you on your forked version. It will look like this:
 
-![](/git_tutorials/sync_fork_imgs/commits_behind.PNG)
+![](/git_tutorials/sync_fork_imgs/commits_behind.png)
 
 If your repository is behind you just need to follow the following steps. If it is ahead that means you have been working on something. If you are done working on it submit a pull request to incorporate it into the main njcssa repository.
 
