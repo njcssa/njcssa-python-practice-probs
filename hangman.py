@@ -15,3 +15,5 @@
 # If yes, clear the whole list of words the computer can choose from and redo the whole thing (from the beginning of this paragraph).
 # If no, make sure to not re-choose any words the player already entered.
 # If there are no more words to choose from, tell him that, and like before, go all the way back to the beginning of the program.
+
+#By Chris G

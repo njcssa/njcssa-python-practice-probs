@@ -46,13 +46,13 @@ def graphic(state): #0-5 for printing the hangman graphic
 def collect():
     hold = ""
     while True:
-        hold = input("Enter word to be played with, and enter \"play\" to start the game:").lower() #getting words
+        hold = input("Enter a word to add to the list, and enter \"play\" to start the game:").lower() #getting words
         if(hold in words):
             print("No repeats!")
             continue
         if hold=='play':
             if len(words)==0:
-                print("I'm sorry, but try again:")
+                print("I'm sorry, but try again (you're list is empty):")
                 continue
             else:
                 break
