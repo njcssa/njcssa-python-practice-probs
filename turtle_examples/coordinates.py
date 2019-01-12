@@ -1,5 +1,6 @@
 import turtle
 from time import sleep
+import datetime
 
 #######################################################################################
 # A program which shows the coordinate system the turtle uses.
@@ -88,6 +89,3 @@ draw_bounding()
 draw_x_axis()
 draw_y_axis()
 screen.mainloop()
-
-
-
