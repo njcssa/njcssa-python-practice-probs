@@ -10,6 +10,8 @@ When you get behind or ahead of the main njcssa repository, github will tell you
 
 If your repository is behind you just need to follow the following steps. If it is ahead that means you have been working on something. If you are done working on it submit a pull request to incorporate it into the main njcssa repository.
 
+There are two ways to do it: manually everytime or using scripts.
+# Manually:
 ## Steps
 ### 1. Open up Git Bash on your PC
 Search for "git bash" in your windows search bar
@@ -45,3 +47,18 @@ There should not be a merge conflict because people should be working on separat
 ![](/git_tutorials/sync_fork_imgs/push_origin.PNG)
 
 You should now be up to date with the main repository!
+
+<br />
+
+# Using scripts (Windows)
+This should do everything above except much easier for you.
+
+## 1. You can either use Update.bat or Update2.bat.
+If you use Update2.bat, you will need to enter your NJCSSA location every single time to sync your fork. If don't want to do that, read ahead.
+
+### 2. Copy & edit the Update.bat
+First, make a copy of the Update.bat file outside of this folder. Once you do so, edit it in whatever text editor (Notepad, Notepad++). Then, where it says "cd C:/njcssa-python-practice-probs", replace the "C:/njcssa-python-practice-probs" with the absolute path to your cloned directory (where the "njcssa-python-practice-probs" folder is).
+
+### 3. Run it
+Now, double click on the .bat file, and you know have a script that automates updating the fork for you!
+
