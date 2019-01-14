@@ -1,3 +1,4 @@
+rem use this to enter file location (works once)
 @ECHO OFF
 ECHO Update your repository for NJCSSA. Made By Ben & Chris
 set /p id="Enter File Path: "

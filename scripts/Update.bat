@@ -1,3 +1,4 @@
+rem use this for more permanant file locations
 @ECHO OFF
 ECHO Update your repository for NJCSSA. Made By Ben & Chris
 cd C:/njcssa-python-practice-probs rem delete the current file path and replace with YOUR file path to your njcssa-python-practice-probs folder
