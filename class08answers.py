@@ -9,9 +9,20 @@ while counter < 10:
 for i in range(0, 10):
     print(i)
 
-
 #######################################################################################
 # 8.2
+print("Enter number1: ")
+n1 = int(input())
+print("Enter number2: ")
+n2 = int(input())
+total = 0
+
+for i in range(0, n2):
+    total += n1
+print(total)
+
+#######################################################################################
+# 8.3
 
 print("Enter the number: ")
 number = int(input())
@@ -24,7 +35,7 @@ for i in range(0, power):
 print("=" + str(answer))
 
 #######################################################################################
-# 8.3
+# 8.4
 
 for i in range(0, 3):
     for j in range(0, 2):
@@ -32,7 +43,7 @@ for i in range(0, 3):
 
 
 #######################################################################################
-# 8.4
+# 8.5
 
 print("Enter rows: ")
 length = int(input())
@@ -49,7 +60,7 @@ for i in range(0, length):
 
 
 #######################################################################################
-# 8.5
+# 8.6
 
 largest = -1
 for i in range(0, 3):
@@ -64,7 +75,7 @@ print("The largest number is {}".format(largest))
 
 
 #######################################################################################
-# 8.6
+# 8.7a
 
 print("enter num1: ")
 num1 = int(input())
@@ -80,7 +91,24 @@ for i in range(1, num1):
     line = ""
 
 #######################################################################################
-# 8.7
+# 8.7b
+import math
+
+print("enter num1: ")
+num1 = int(input())
+print("enter num2: ")
+num2 = int(input())
+
+line = ""
+
+for i in range(1, num1):
+    for j in range(1, num2):
+        line += "{}^{}={} \t ".format(i, j, math.pow(i, j))
+    print(line)
+    line = ""
+
+#######################################################################################
+# 8.8
 # they could also accomplish this using string addition
 
 print("Enter amount of 1s: ")
