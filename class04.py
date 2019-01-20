@@ -3,19 +3,19 @@
 # and use float() to convert a string with a decimal
 
 #######################################################################################
-# 4.0
+# 4.1
 # Write a program that uses a string variable and then prompts the user for a string. 
 # If the strings match, print true. If not, print false. Then, do the same with a number. 
 
 thing = "whatever you want"
 
 #######################################################################################
-# 4.1
+# 4.2
 # Write a program that takes in three numbers using the input function and then prints 
 # the largest number.
 
 #######################################################################################
-# 4.2
+# 4.3
 # Write a program that takes in a grade and calculates if it is A, B, C, D, or F
 # Extra: Added plus and minuses. Fs do not need + or -.
 # This program will support decimals.
@@ -23,7 +23,7 @@ thing = "whatever you want"
 # for our purposes, round it up.
 
 #######################################################################################
-# 4.3
+# 4.4
 
 # A straight in poker(a card game) is defined when 5 cards are aligned consecutively in 
 # ascending order (0, 1, 2, 3, 4) but not (8, 9, 10, 0, 1), nor (0, 2, 1, 3, 4).
@@ -33,7 +33,7 @@ thing = "whatever you want"
 # straight. You do not need to make sure the number stays within bounds.
 
 #######################################################################################
-#4.4
+#4.5
 
 # Write a program that prompts the user for an operation
 # (addition, subraction, multiplication, or division) for (0-3)
@@ -46,7 +46,7 @@ thing = "whatever you want"
 #   5
 
 #######################################################################################
-# 4.5
+# 4.6
 
 # Triangles have exactly three sides. If a triangle has three equal sides it is called 
 # an equilateral triangle. If a triangle has exactly two equal sides it is called an 
@@ -62,7 +62,7 @@ thing = "whatever you want"
 # “This isn’t a real triangle!”  
 
 #######################################################################################
-# 4.6
+# 4.7
 
 # Write a program to solve quadratic equations (use if, else if and else).
 # Essentially, ask the user for a, b, and c
