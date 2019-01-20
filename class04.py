@@ -4,37 +4,40 @@
 
 #######################################################################################
 # 4.0
-# Write a program that variable of a string value:
+# Write a program that uses a string variable and then prompts the user for a string. 
+# If the strings match, print true. If not, print false. Then, do the same with a number. 
+
 thing = "whatever you want"
-# and the prompts the user for a string. If the strings match, say true. If not, say false.
-# Then, do the same with a number. (Hint: they are basically the same)
 
 #######################################################################################
 # 4.1
-# Write a program that takes in three numbers and then prints the largest number.
+# Write a program that takes in three numbers using the input function and then prints 
+# the largest number.
 
 #######################################################################################
 # 4.2
 # Write a program that takes in a grade and calculates if it is A, B, C, D, or F
 # Extra: Added plus and minuses. Fs do not need + or -.
 # This program will support decimals.
-# Use round() to round the number. Althogh the function will round 1.5 down, for our purposes, round it up.
+# Use round() to round the number. Althogh the function will round 1.5 down, 
+# for our purposes, round it up.
 
 #######################################################################################
 # 4.3
 
-# A straight in poker is defined when 5 cards are aligned consecutively in ascending order
-# (0, 1, 2, 3, 4) but not (8, 9, 10, 0, 1), nor (0, 2, 1, 3, 4).
+# A straight in poker(a card game) is defined when 5 cards are aligned consecutively in 
+# ascending order (0, 1, 2, 3, 4) but not (8, 9, 10, 0, 1), nor (0, 2, 1, 3, 4).
 # Cards are from 0-10, and a J is 11.
 
-# Write a program prompts the user for 5 numbers, and then determines if they are a straight.
-# You do not need to make sure the number stays within bounds.
+# Write a program prompts the user for 5 numbers, and then determines if they are a 
+# straight. You do not need to make sure the number stays within bounds.
 
 #######################################################################################
 #4.4
 
 # Write a program that prompts the user for an operation
 # (addition, subraction, multiplication, or division) for (0-3)
+#     0          1              2               3
 # and then prompts for 2 numbers. Then, display the result.
 
 # e.g. Enter a number: 3 (for division)
@@ -70,5 +73,3 @@ thing = "whatever you want"
 # math.pow - get powers of numbers - ex: math.pow(2, 3) = 8
 # math.sqrt - get square root of number - ex: math.sqrt(4) = 2
 
-
-# Written & Solutions by Chris
