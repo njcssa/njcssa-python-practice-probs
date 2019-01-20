@@ -29,4 +29,9 @@
 # player already entered. If there are no more words to choose from, tell him that, 
 # and like before, go all the way back to the beginning of the program.
 
+# This is probably the largest program you will have writen so far. Remember to do easy things first
+# and make a solid framework, then try to tackle the whole problem altogether.
+# This is not an easy problem - so if you get frustrated, don't worry and keep going!
+# Good Luck!
+
 #By Chris G

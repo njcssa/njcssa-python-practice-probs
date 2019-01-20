@@ -39,3 +39,16 @@
 # ***
 # ****
 # Remember that you can add strings together. For example "race" + "car" = "racecar"
+
+#######################################################################################
+# 6.7
+# Rock, paper, scissors is a fun and easy game.
+# Rock beats scissors, paper beats rock, and scissors beats paper
+
+# Write a program the generates a random move to go (rock, paper, or scissors)
+# and then the user will enter their move but will not see the computer's guess.
+# Keep playing until the player wins. Make sure to display the computer's guess every round
+# 
+# Use:
+# "random.randint(x,y)" (Generates a random number between x - y, which include x and y)
+# from "import random" to generate a random number

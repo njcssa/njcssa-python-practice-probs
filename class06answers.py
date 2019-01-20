@@ -84,3 +84,21 @@ while counter < steps:
     print(string)
     counter += 1
 
+#######################################################################################
+# 6.7
+
+import random
+
+win = False
+
+while win == False:
+    cpu = random.randint(0,2)
+    print("enter a move (rock is 0, paper is 1, and scissors is 2): ")
+    num1 = int(input())
+    if(cpu == num1):
+        print("Just a tie! Computer guessed the same!")
+    elif(cpu==0 and num1 == 2) or (cpu == 1 and num1 == 0) or (cpu == 2 and num1 == 1):
+        print("Sorry, CPU won this round. The computer's guess was: " + str(cpu))
+    else:
+        print("Congrats, you won! The computer's guess was: " + str(cpu))
+        win = True
