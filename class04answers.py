@@ -1,5 +1,5 @@
 #######################################################################################
-#4.0
+# 4.1
 
 thing = "Hello"
 n2 = input()
@@ -15,7 +15,7 @@ else:
     print("False")
 
 #######################################################################################
-#4.1
+# 4.2
 
 print("Enter number 1:")
 n1 = input()
@@ -32,9 +32,15 @@ elif(n3 >= n2 and n3>=n1):
     print(n1, "is the largest")
 
 #######################################################################################
-#4.2
+# 4.3
 
-grade = round(float(input("Enter a grade:"))+0.1)
+grade = float(input("Enter a grade:"))
+decimal = grade - float(int(grade))
+if decimal >= 0.5:
+	grade = float(int(grade)) + 1.0
+else:
+	grade = float(int(grade))
+
 if(grade>=90):
      print('A', end='')
      grade -= 90
@@ -60,7 +66,7 @@ if(grade!=-1):
         print('-')
    
 #######################################################################################
-#4.3
+# 4.4
 
 s1 = input("Enter card:")
 s2 = input("Enter card:")
@@ -95,7 +101,7 @@ else:
     print("Not a straight")
 
 #######################################################################################
-#4.4
+# 4.5
 
 op = int(input("Enter operation (0-3):"))
 n1 = int(input("First Number:"))
@@ -111,7 +117,7 @@ if(op==3):
     print(n1/n2)
 
 #######################################################################################
-#4.5
+# 4.6
 
 #gathering user input
 print("Enter a side 1:")
@@ -132,7 +138,7 @@ else:
     print("This is a scalene triangle")
 
 #######################################################################################
-#4.6
+# 4.7
 
 import math
 
