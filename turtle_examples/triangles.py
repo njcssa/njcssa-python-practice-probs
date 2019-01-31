@@ -1,18 +1,20 @@
-from turtle import*
+import turtle
 
-shape("turtle")
-wheel=12
-bgcolor("blue")
-pensize(10)
-pencolor("red")
+t = turtle.Turtle()
+s = turtle.Screen()
+t.shape("turtle")
+t.wheel=24
+s.bgcolor("blue")
+t.pensize(10)
+t.pencolor("red")
 
-for i in range(wheel):
-    begin_fill()
-    rt(90)
-    fd(200)
-    lt(120)
-    fd(200)
-    lt(120)
-    fd(200)
-    end_fill()
-    fd(200) 
+for i in range(t.wheel):
+    t.begin_fill()
+    t.rt(135)
+    t.fd(200)
+    t.lt(120)
+    t.fd(200)
+    t.lt(120)
+    t.fd(200)
+    t.end_fill()
+    t.fd(200) 
