@@ -39,8 +39,8 @@ print("Changed word: {}".format(pig_latin))
 #12.4
 
 input_string = input("Please enter a string you want to convert to pig latin: ")
-if input_string.index(".") != -1: # removes period
-    input_string = input_string[0:input_string.index(".")]
+if input_string.find(".") != -1: # removes period
+    input_string = input_string[0:input_string.find(".")]
 
 string_list = input_string.split(" ")
 vowels = ["a", "e", "i", "o", "u"]
