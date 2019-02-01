@@ -64,3 +64,12 @@ boolean_var2 = False
 # 1.10
 # make two variables and make a print statement doing (+, -, *, /)
 
+#######################################################################################
+# 1.11
+# make two int variables and cast them to string variables. add them together.
+
+#######################################################################################
+# 1.12
+# do division with two int variables which don't evenly divide into each other. cast the
+# answer to an int and print the int.
+
