@@ -42,3 +42,7 @@
 # 5.8
 # Make a while loop within a while loop. In the outer while loop count up to 10 from 1
 # and in the inner loop count up to 3 from 1.
+
+#######################################################################################
+# 5.9
+# Make a string and use the length function to print out each character in the string.
