@@ -76,3 +76,13 @@ while counter1 <= 10:
         counter2 += 1
     counter2 = 1
     counter1 += 1
+#######################################################################################
+# 5.9
+
+string = "this is a cool string"
+length = len(string)
+i = 0
+while i < length:
+    print(string[i:i+1])
+    i += 1
+
