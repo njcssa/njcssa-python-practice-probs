@@ -39,7 +39,7 @@ d = 12
 #######################################################################################
 # 2.5
 # Make 1 variable. Make another variable and set it equal to the other variable. Then
-# print out the second varible to see what is stored.
+# print out the second variable to see what is stored.
 
 
 

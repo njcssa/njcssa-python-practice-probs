@@ -1,17 +1,19 @@
 #######################################################################################
 # 6.1
 # Make a while loop with a counter variable which counts up to 100
+# This program should print the numbers 1-100 on the terminal.
 
 
 #######################################################################################
 # 6.2
 # Get the input of 10 numbers using the input function and a while loop. Then take the
-# average of those 10 numbers.
+# average of those 10 numbers. Print the average.
 
 #######################################################################################
 # 6.3
 # Make a while loop program which can calculate the factorial of a number. 3! means 3
-# factorial. 3! = 3*2*1, 4! = 4*3*2*1, 5! = 5*4*3*2*1.
+# factorial. 3! = 3*2*1, 4! = 4*3*2*1, 5! = 5*4*3*2*1. You can either take the number
+# to get the factorial of as an input or make it in a variable.
 
 #######################################################################################
 # 6.4
