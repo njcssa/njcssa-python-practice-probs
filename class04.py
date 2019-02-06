@@ -19,7 +19,7 @@ thing = "whatever you want"
 # Write a program that takes in a grade and calculates if it is A, B, C, D, or F
 # Extra: Added plus and minuses. Fs do not need + or -.
 # This program will support decimals.
-# Use round() to round the number. Althogh the function will round 1.5 down, 
+# Use round() to round the number. Although the function will round 1.5 down, 
 # for our purposes, round it up.
 
 #######################################################################################
@@ -36,7 +36,7 @@ thing = "whatever you want"
 #4.5
 
 # Write a program that prompts the user for an operation
-# (addition, subraction, multiplication, or division) for (0-3)
+# (addition, subtraction, multiplication, or division) for (0-3)
 #     0          1              2               3
 # and then prompts for 2 numbers. Then, display the result.
 
