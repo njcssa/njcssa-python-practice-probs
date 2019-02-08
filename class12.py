@@ -32,21 +32,16 @@
 
 #######################################################################################
 # 12.6
-# Create a encoder program for a string and also make decoder code. Hint: make 2 lists
-# using your code
-
-
 # Make your own min/max function (without using min() or max()).
 # Write a program that takes a list of numbers, and then returns the min or max of it.
 
 #######################################################################################
 # 12.7
-
 # Make your own sort function (without using the sort()).
 # Write a program that takes a list of numbers, and then sorts them.
 
 #######################################################################################
-# 12.8
+# 12.8 - challenge problem
 
 # Take a list of lists, and than transpose it to inverted dimensions
 
@@ -58,3 +53,15 @@
 # Note: it is always guaranteed that every list in that list
 # will always have the same length.
 # For example, this would not be allowed: [[2,3],[5,6,7,8]]
+
+#######################################################################################
+# 12.9 - challenge problem
+# Create a encoder program for a string and also make decoder code. Hint: make 2 lists
+# using your code
+
+alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", 
+"o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+
+# You can change your corresponding code
+code = [1, 2, 3, 4, 5, 6, 7, 8, 9, "^", "*", "/", "%", "#", "@", ")", "(", "[", "]", 
+"{", "}", "!", "?", "<", ">", "="]
