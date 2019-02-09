@@ -121,17 +121,22 @@ while len(orig)>0:
 print(st)
 
 #######################################################################################
-#12.8 - challenge problem
+# 12.8 - challenge problem
+
 # Take a list of lists, and than transpose it to inverted dimensions
 
 # ex. [[2, 3], [4, 5], [6, 7]] --> [[2, 3, 4], [5, 6, 7]]
+# (3 by 2 --> 2 by 3)
 # ex. [[2, 3, 5, 7], [4, 5, 767, 8], [6, 7, 567, 55]] --> [[2, 3, 5], [7, 4, 5], [767, 8, 6], [7, 567, 55]]
+# (3 by 4 --> 4 by 3) 
+
 # use the list() to make an empty list
 # ex. num = list() (an empty list)
 
 # Note: it is always guaranteed that every list in that list
 # will always have the same length.
-# For example, this would not be allowed: [[2,3],[5,6,7,8]]
+# For example, this would not be allowed: [[2,3],[5,6,7,8]] becauase
+# the first list has length 2, and the second list has length 4. Both lengths will have to be the same
 
 orig = [[2,3],[4,5],[6,7]]
 print(orig)
