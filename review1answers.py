@@ -10,6 +10,8 @@ d = "a"
 e = "string"
 f = " "
 
+print(c + f + b + f + d + f + a + f + e)
+
 #######################################################################################
 # r1.2
 # Take both variables and use the if statements to print the result. Fill in the missing
@@ -19,9 +21,9 @@ f = " "
 var1 = "dog"
 var2 = 2
 
-if
+if var1 != "dog":
     print("gg")
-elif 
+elif var2 == 3:
     print(var1)
 else:
     print("hi")
@@ -34,9 +36,9 @@ else:
 # Result: 0, 2, 4, 6, 8
 
 counter = 0
-while counter < 20:
+while counter < 10:
     print(counter)
-    counter += 1
+    counter += 2
 
 
 
@@ -51,6 +53,11 @@ while counter < 20:
 # ###
 # ####
 
+string = ""
+for i in range(0, 4):
+    string += "#"
+    print(string)
+
 
 #######################################################################################
 # r1.5
@@ -64,9 +71,9 @@ var3 = 2
 
 if var1 == "cool":
     print(1)
-if var2 == "i":
+elif var2 != "i":
     print(var2)
-if var3 < 3:
+elif var3 < 3:
     print(var3 - 1)
 
 
@@ -78,14 +85,18 @@ if var3 < 3:
 
 counter = 1
 while counter < 11:
-    print(counter)
+    if i % 2 == 0:
+        print(counter)
     counter += 1
+
 
 #######################################################################################
 # r1.7
 # Make a for loop which counts from 1-100 and print the numbers.
 # Result: 1, 2, 3...99, 100
 
+for i in range(1, 101):
+    print(i)
 
 #######################################################################################
 # r1.8
@@ -94,6 +105,9 @@ while counter < 11:
 # this is great 
 # this is great 
 # this is great ...
+
+for i in range(0, 10):
+    print("this is great")
 
 
 
@@ -106,3 +120,7 @@ while counter < 11:
 
 last_num = 0
 for i in range(1, 100):
+    print(i)
+    if last_num + i % 3 == 0:
+        print("hi")
+    last_num = i
