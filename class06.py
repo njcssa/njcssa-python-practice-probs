@@ -52,5 +52,6 @@
 # Keep playing until the player wins. Make sure to display the computer's guess every round
 # 
 # Use:
-# "random.randint(x,y)" (Generates a random number between x - y, which include x and y)
-# from "import random" to generate a random number
+# First write "import random" on the top of your program, before anything else
+# "random.randint(x,y)" generates a random number between x - y, which include x and y
+# So, x = random.randint(0,10) sets x to a random number between 0 - 10, inclusive
