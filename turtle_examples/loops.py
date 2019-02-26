@@ -1,7 +1,7 @@
 # For the problems below, look at the imgur link to see the expected results for each
 # problem.
 
-#Imgur link: 
+#Imgur link: https://imgur.com/a/xEBjbLm
 
 #######################################################################################
 # 1.1
