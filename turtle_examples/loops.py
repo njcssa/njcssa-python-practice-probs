@@ -2,6 +2,8 @@
 # problem.
 
 #Imgur link: https://imgur.com/a/xEBjbLm
+import turtle
+t = turtle.Turtle()
 
 #######################################################################################
 # 1.1
@@ -60,7 +62,7 @@ t.end_fill()
 
 '''
 
-x = 0
+
 for i in range(20):
     if i % 10 == 0:
         t.color("red")
@@ -85,8 +87,8 @@ for i in range(20):
 
     for i in range(4):
         t.forward(200)
-        t.left(90 + x)
-    x += 3
+        t.left(93)
+    
 
 '''
 
