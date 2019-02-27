@@ -36,11 +36,12 @@
 # Create a list of 10 numbers in random order. Call the sort function on the list with 
 # the reverse parameter set to true. Print the sorted list.
 
+# STOP HERE (Wait for next slide)
+
 #######################################################################################
 # 11.8
 # Create a string. Use slicing notation like in a list to get part of the string. Print
 # out the partial string.
-
 
 #######################################################################################
 # 11.9

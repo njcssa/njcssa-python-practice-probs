@@ -23,6 +23,7 @@ print(group[3])
 #######################################################################################
 # 9.3
 # Use a while loop to print out all the items in the list below.
+# (Print each element) individually
 
 animals = ["dog", "cat", "fish", "panda"]
 i = 0
@@ -66,6 +67,15 @@ print("the average is: {}".format(total/len(nums)))
 
 #######################################################################################
 # 9.7
+# Use negative list indexes to print out all of the items in the list from back to
+# front.
+
+reverse = [1, 2, 3, 4, 5, 6, 7]
+for i in range(-1, -len(reverse)-1, -1):
+    print(reverse[i])
+
+#######################################################################################
+# 9.8
 # Use 2 for loop to loop through this list of lists.
 
 list_of_lists = [[1, 2], [3, 4], [5, 6]]
@@ -74,15 +84,6 @@ for l in list_of_lists:
     for num in l:
         print(num)
 
-
-#######################################################################################
-# 9.8
-# Use negative list indexes to print out all of the items in the list from back to
-# front.
-
-reverse = [1, 2, 3, 4, 5, 6, 7]
-for i in range(-1, -len(reverse)-1, -1):
-    print(reverse[i])
 
 #######################################################################################
 # 9.9
@@ -95,7 +96,21 @@ print(list3)
 
 
 #######################################################################################
-# 9.10
+# 9.10a
+# Make another list and change the third element.
+
+test = ['a', 'b', 'c', 'd', 'e']
+test[2] = 'k'
+print(test)
+
+# 9.10b
+# With that same list, make another list from the first to the sixth elements
+
+test2 = test[0:5]
+print(test2)
+
+#######################################################################################
+# 9.11
 # Delete the first value in the list using the "del" keyword. Then remove the first 
 # value of the new list using the remove function. Print some list after the deletions.
 
@@ -104,10 +119,8 @@ del some_list[0]
 some_list.remove(2)
 print(some_list)
 
-
-
 #######################################################################################
-# 9.11
+# 9.12
 # Use the enumerate function in a for loop to print out the index and item in the for
 # loop.
 # 0 - "dog"
@@ -118,3 +131,17 @@ animal_list = ["dog", "cat", "mouse", "horse", "elephant"]
 
 for i, a in enumerate(animal_list):
     print("{} - {}".format(i, a))
+
+#######################################################################################
+# 9.13
+# Create a list of at least 5 strings.
+# Then ask the user for a string and then print if the string is in the list.
+# loop.
+
+lista = ["dog", "cat", "mouse", "horse", "elephant"]
+st = str(input())
+
+if st in lista:
+        print(True)
+else:
+        print(False)
