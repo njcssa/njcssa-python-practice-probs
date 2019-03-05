@@ -43,12 +43,12 @@
 
 #######################################################################################
 # 10.9
-# Create a list. Use a for loop to loop through the list using a counter variable and
+# Create a list. Use a while loop to loop through the list using a counter variable and
 # print each item.
 
 #######################################################################################
 # 10.10
-# Create a list. Use a for loop to loop through the list using the "in" keyword and 
+# Create a list. Use a for loop to loop through the list and 
 # print each item.
 
 #######################################################################################
