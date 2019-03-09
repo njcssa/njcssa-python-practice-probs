@@ -2,16 +2,16 @@
 # 10.1
 # Make an empty list and print it
 
-list = []
-print(list)
+l = []
+print(l)
 
 #######################################################################################
 # 10.2
 # Make a list holding the values 1, 2, 3, 4, 5 and then print the second and fifth item 
 # using their index numbers. 
 
-list = [1,2,3,4,5]
-print(str(list[1]) + ' ' + str(list[4]))
+l = [1,2,3,4,5]
+print(str(l[1]) + ' ' + str(l[4]))
 
 
 #######################################################################################
@@ -19,16 +19,16 @@ print(str(list[1]) + ' ' + str(list[4]))
 # Use negative list indexes to access the last item in a list of [1, 2, 3, 4] and print
 # the item.
 
-list = [1,2,3,4]
-print(str(list[-1]))
+l = [1,2,3,4]
+print(str(l[-1]))
 
 #######################################################################################
 # 10.4
 # Create a list and have it store 4 variables of 4 different types. Then print out the 
 # list.
 
-list = [True, 1, 5.3, 'Hello']
-print(list)
+l = [True, 1, 5.3, 'Hello']
+print(l)
 
 
 #######################################################################################
@@ -37,52 +37,52 @@ print(list)
 # The smaller lists can store anything you want. After you have made the list of lists, 
 # print out each small list on a new line.
 
-list = [[1, True], ['Hello', 2.5], [1, 2.4]]
-for i in range(len(list)):
-    print(list[i])
+l = [[1, True], ['Hello', 2.5], [1, 2.4]]
+for i in range(len(l)):
+    print(l[i])
 
 #######################################################################################
 # 10.6
 # Take the list [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] and use list slicing to print a list
 # that holds [3, 4, 5]
 
-list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(list[2:5])
+l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(l[2:5])
 
 #######################################################################################
 # 10.7
 # Create a list and use the len() function to print out the length of the list.
 
-list = [1,2,'Hello',True,5.3]
-print(len(list))
+l = [1,2,'Hello',True,5.3]
+print(len(l))
 
 #######################################################################################
 # 10.8
 # Create a list. Print it. Then change at least 2 values inside it. Print out the
 # changed list.
 
-list = [1,2,3,4,5]
-print(list)
-list[0] = 2
-list[1] = 3
-print(list)
+l = [1,2,3,4,5]
+print(l)
+l[0] = 2
+l[1] = 3
+print(l)
 
 #######################################################################################
 # 10.9
 # Create a list. Use a for loop to loop through the list using a counter variable and
 # print each item.
 
-list = [10,20,30,40,50]
-for i in range(len(list)):
-    print(list[i])
+l = [10,20,30,40,50]
+for i in range(len(l)):
+    print(l[i])
 
 #######################################################################################
 # 10.10
 # Create a list. Use a for loop to loop through the list using the "in" keyword and 
 # print each item.
 
-list = [10,20,30,40,50]
-for i in list:
+l = [10,20,30,40,50]
+for i in l:
     print(i)
 
 #######################################################################################
@@ -90,10 +90,10 @@ for i in list:
 # Create a list consisting of integers. Use a for loop to loop through the list and add
 # 1 to all the items. Then print out the changed list.
 
-list = [1,2,3,4,5]
-for i in range(len(list)):
-    list[i] += 1
-print(list)
+l = [1,2,3,4,5]
+for i in range(len(l)):
+    l[i] += 1
+print(l)
 
 #######################################################################################
 # 10.12
@@ -110,25 +110,25 @@ print(list1)
 # Create a list of 5 items. Remove 2 items from the end and print each as you remove
 # them.
 
-list = [1,2,3,4,5]
-print(list[4])
-del list[4]
-print(list[3])
-del list[3]
-print(list)
+l = [1,2,3,4,5]
+print(l[4])
+del l[4]
+print(l[3])
+del l[3]
+print(l)
 
 
 #######################################################################################
 # 10.14
 # Use the "in" operator to check if a value is in a list. Use an if statement here.
 
-list = [1,2,3,4,5]
-if 1 in list:
+l = [1,2,3,4,5]
+if 1 in l:
     print(str(1) + ' is in the list')
 else:
     print(str(1) + ' is not in the list')
 
-if 6 in list:
+if 6 in l:
     print(str(6) + ' is in the list')
 else:
     print(str(6) + ' is not in the list')
