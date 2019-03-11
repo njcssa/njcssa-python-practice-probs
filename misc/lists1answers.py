@@ -87,5 +87,22 @@ for i in range(len(increasing)):
 print(increasing)
 
 
+#######################################################################################
+# 1.8
+# Sort this list into decreasing order.
+
+decreasing = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+
+
+
+#######################################################################################
+# 1.9
+# Loop through the following list and print the pairs of numbers when multiplied
+# together give a product which can be evenly divided by 2. For example, a number pair
+# which would work would be 2 and 6 since they equal 12 when multiplied together.
+
+multiples = [2, 5, 7, 1, 0, 8, 6, 9, 10, 3, 11]
 
 
