@@ -77,7 +77,6 @@ print(some_list)
 
 increasing = [9, 1, 2, 8, 10, 5, 4, 3, 6, 7]
 
-temp = 1
 for i in range(len(increasing)):
     for j in range(i, len(increasing)):
         if increasing[i] > increasing[j]:
@@ -94,6 +93,14 @@ print(increasing)
 decreasing = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
+for i in range(len(decreasing)):
+    for j in range(i, len(decreasing)):
+        if decreasing[i] < decreasing[j]:
+            temp = decreasing[i]
+            decreasing[i] = decreasing[j]
+            decreasing[j] = temp
+print(decreasing)
+
 
 
 
@@ -104,5 +111,17 @@ decreasing = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # which would work would be 2 and 6 since they equal 12 when multiplied together.
 
 multiples = [2, 5, 7, 1, 0, 8, 6, 9, 10, 3, 11]
+
+
+for i in range(len(multiples)):
+    for j in range(i, len(multiples)):
+        if (multiples[i] * multiples[j]) % 2 == 0:
+            print("{} x {} % 2 = 0".format(multiples[i], multiples[j]))
+
+
+
+
+
+
 
 
