@@ -71,6 +71,17 @@ for i, v in enumerate(some_list):
             del some_list[j]
 print(some_list)
 
+# Another solution using list range function:
+i = len(some_list) - 1
+while i > 0:
+	for j in range(i-1, -1, -1):
+		if some_list[i] == some_list[j]:
+			del some_list[j]
+			i -= 1
+	i -= 1
+
+print(some_list)
+
 #######################################################################################
 # 1.7
 # Sort this list into increasing order.
