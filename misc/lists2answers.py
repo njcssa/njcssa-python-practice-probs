@@ -74,7 +74,7 @@ for i in range(-10, -51, -1):
 
 some_list = [4, True, "dog", "man", 2.3, False, "nice", "great", 2, 6, 10]
 
-for i in range(len(some_list)):
+for i in range(len(some_list)-1, -1, -1):
     if i % 2 == 0:
         del some_list[i]
 
@@ -90,7 +90,7 @@ print(some_list)
 list1 = [2, 5, 1, 2, 7, 8, 9, 10, 9, 3, 2, 8, 9]
 list2 = []
 
-for i in range(len(list1)):
+for i in range(len(list1)-1, -1, -1):
     if list1[i] > 5:
         list2.append(list1[i])
         del list1[i]
@@ -106,9 +106,9 @@ for i in range(len(list1)):
 list1 = [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 list2 = []
 list3 = []
-list4 = []
+list5 = []
 
-for i in range(len(list1)):
+for i in range(len(list1)-1, -1, -1):
     if list1[i] % 2 == 0:
         list2.append(list1[i])
         del list1[i]
