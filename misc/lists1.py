@@ -34,7 +34,7 @@ li = [1, 2, 3, 4, 5, 6]
 li = ["hi", "dog", "ca", "nj", "house"]
 
 #######################################################################################
-# 1.6
+# 1.6 # Challenge problem (optional)
 # Delete all duplicate values from this list. Use the "del" keyword and for loop(s)
 
 some_list = [1, 2, 1, 3, 3, 5, 7, 8, 9, 1, 4, 5, 6, 8, 9, 10, 2, 3, 4, 6, 8, 9]
