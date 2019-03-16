@@ -71,7 +71,7 @@ age_list = [1, 2, 44, 5, 18, 19, 25, 9, 11, 47, 32, 4, 6, 8, 20]
 adult_list = []
 child_list = []
 
-for i in range(len(age_list)):
+for i in range(len(age_list)-1, -1, -1):
     if age_list[i] < 18:
         child_list.append(age_list[i])
         del age_list[i]
