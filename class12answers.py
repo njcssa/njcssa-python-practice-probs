@@ -74,18 +74,18 @@ print(result)
 # Make a program which takes a string made up of multiple words and transfer each word
 # into a list item. Don't use the split function.
 
-words = []
-input_words = input("input some words separated by spaces: ")
-
+string = "this is very cool now really"
+some_list = []
 current = 0
-i = 0
-while current <= len(input_words):
-    while i <= len(input_words) and input_words[i:i+1] != " ":
-        i += 1
-    words.append(input_words[current:i])
-    current = i + 1
-    i = i + 1
-print(words)
+
+for i in range(len(string)):
+	if string[i] == " ":
+		some_list.append(string[current:i])
+		current = i + 1
+		print(current)
+
+some_list.append(string[current:])
+print(some_list)
 
 #######################################################################################
 #12.6
